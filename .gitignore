@@ -1,0 +1,6 @@
+led/.idea
+led/static
+led/templates
+led/venv
+led/venv/*
+.idea

@@ -24,6 +24,14 @@ We need to do this because our virtual environment can't access the globally ins
 The `script.js` has jQuery that calls the Flask app using simple AJAX calls. They assume that the path for the flask app is `/led` - 
 if you use another path, change this in the JavaScript to avoid getting 404s on your AJAX calls. 
 
+Place the `utils/apache-led.conf` configuration file in the appropriate Apache/sites-available directory and enable it with with:
+
+```bash
+sudo a2ensite apache-led.conf
+```
+
+The `led.wsgi` file should be placed in the same directory as `led.py` which contains your Flask controllers. If you rename the flask controller, you have edit the `wsgi` file to reflect the changes. 
+
 If everything is set up correctly, the AJAX call will happen with the following url: `http://{{ip_addr}}/led?status=on`
 
 Only a status of `on` or `off` are accepted. Anything else will return a simple error message. Open up the JavaScript console for more info.  

@@ -7,6 +7,12 @@ This project contains the tutorial files for EasyProgramming.net
 1. Front end - index.html, script.js, and style.css make up a very simple frontend UI for our app
 2. led - this directory contains the Flask app that will act as our back end app
 
+# Tutorial
+A full video tutorial can be found on YouTube at https://www.youtube.com/watch?v=c6FOpPXbLjs
+<a href="https://www.youtube.com/watch?v=c6FOpPXbLjs" target="_blank"><img src="https://www.easyprogramming.net/img/ledBrowserControl.jpg" width="700px" alt="Audio Reactive LED Strip Tutorial"></a>
+
+More information on the tutorial can be found at https://www.easyprogramming.net/raspberrypi/browser_control_led.php
+
 ## Prerequisites
 Everything in this tutorial is the end product of what we've learned so far about the Raspberry Pi and some things we learned with JavaScript and jQuery. If you get stuck anywhere, take a look at these tutorials:
 

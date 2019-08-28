@@ -9,7 +9,7 @@ This project contains the tutorial files for EasyProgramming.net
 
 # Tutorial
 A full video tutorial can be found on YouTube at https://www.youtube.com/watch?v=c6FOpPXbLjs
-<a href="https://www.youtube.com/watch?v=c6FOpPXbLjs" target="_blank"><img src="https://www.easyprogramming.net/img/ledBrowserControl.jpg" width="700px" alt="Audio Reactive LED Strip Tutorial"></a>
+<a href="https://www.youtube.com/watch?v=c6FOpPXbLjs" target="_blank"><img src="https://www.easyprogramming.net/img/ledBrowserControl.png" width="700px" alt="Control an LED from a browser"></a>
 
 More information on the tutorial can be found at https://www.easyprogramming.net/raspberrypi/browser_control_led.php
 

@@ -51,3 +51,17 @@ The `led.wsgi` file should be placed in the same directory as `led.py` which con
 If everything is set up correctly, the AJAX call will happen with the following url: `http://{{ip_addr}}/led?status=on`
 
 Only a status of `on` or `off` are accepted. Anything else will return a simple error message. Open up the JavaScript console for more info.  
+
+## Authors
+* **Nazmus Nasir** - [Nazm.us](https://nazm.us) - Owner of EasyProgramming.net
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+# Questions ?
+Have questions? You can reach me through several different channels. You can ask a question in the  [issues forum](/../../issues), 
+on [EasyProgramming.net](https://www.easyprogramming.net), or on the vide comments on YouTube. 
+
+# Contribute 
+I will accept Pull requests fixing bugs or adding new features after I've vetted them. Feel free to create pull requests! 
